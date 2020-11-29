@@ -1,7 +1,6 @@
 /*
  * Globals
  */
-
 /* Links */
 a,
 a:focus,
@@ -15,16 +14,15 @@ a:hover {
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
 }
 
-
 /*
  * Base structure
  */
-
 html,
 body {
   height: 100%;
@@ -43,14 +41,17 @@ body {
   max-width: 25em;
 }
 
-
 /*
  * Header
  */
+#logo {
+  margin-bottom: 30px;
+}
 
- #logo {
-   margin-bottom: 30px;
- }
+#logo-text {
+  font-size: 2.1rem;
+}
+
 .masthead {
   margin-bottom: 2rem;
 }
@@ -72,7 +73,7 @@ body {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.nav-masthead .nav-link + .nav-link {
+.nav-masthead .nav-link+.nav-link {
   margin-left: 1rem;
 }
 
@@ -84,18 +85,19 @@ body {
   .masthead-brand {
     float: left;
   }
+
   .nav-masthead {
     float: right;
   }
 }
 
-
 /*
- * Cover
+ * Main
  */
 .cover {
   padding: 0 1.5rem;
 }
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
@@ -105,6 +107,13 @@ body {
   margin-top: 20px;
 }
 
+main {
+  line-height: 2.0rem;
+}
+
+h5 {
+  margin-bottom: 20px;
+}
 
 /*
  * Footer
@@ -114,5 +123,5 @@ body {
 }
 
 .mastfoot {
-  
+  font-size: 0.5rem;
 }
