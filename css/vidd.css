@@ -112,6 +112,10 @@ main {
   line-height: 2.0rem;
 }
 
+#divider {
+  margin: 10px 0 10px 0;
+}
+
 /*
  * Footer
  */
