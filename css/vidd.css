@@ -50,10 +50,11 @@ body {
 
 #logo-text {
   font-size: 2.1rem;
+  margin-bottom: 20px;
 }
 
 .masthead {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .masthead-brand {
@@ -109,10 +110,6 @@ body {
 
 main {
   line-height: 2.0rem;
-}
-
-h5 {
-  margin-bottom: 20px;
 }
 
 /*
